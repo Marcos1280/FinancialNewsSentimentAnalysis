@@ -5,7 +5,7 @@ from io import BytesIO
 from scipy.io import wavfile
 
 # Fine-tuned sentiment model on Hugging Face
-SENTIMENT_REPO = "frangipaninpools/Group2"
+SENTIMENT_REPO = "Marcos343/Group2"
 
 @st.cache_resource
 def load_models():
